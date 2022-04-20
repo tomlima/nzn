@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "embaixadores",
+  "info": {
+    "singularName": "embaixador",
+    "pluralName": "embaixadores",
+    "displayName": "embaixadores"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "gravata": {
+      "type": "text",
+      "required": true
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
